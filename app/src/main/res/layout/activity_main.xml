@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+android:padding="20dp" android:background="#101418">
+<TextView android:id="@+id/title" android:text="WI-FI FIELD LAB" android:textColor="#FFFFFF"
+android:textSize="25sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/network" android:text="Rede: —" android:textColor="#AAB4BE"
+android:textSize="16sp" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/dbm" android:text="— dBm" android:textColor="#00BFA5"
+android:textSize="58sp" android:textStyle="bold" android:gravity="center" android:layout_marginTop="28dp"
+android:layout_width="match_parent" android:layout_height="110dp"/>
+<TextView android:id="@+id/stats" android:text="Média: —   Mín: —   Máx: —" android:textColor="#D8DEE4"
+android:textSize="15sp" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/chart" android:text="" android:textColor="#00BFA5" android:typeface="monospace"
+android:textSize="12sp" android:layout_marginTop="20dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+<EditText android:id="@+id/material" android:hint="Material / condição (ex.: alumínio)"
+android:textColor="#FFFFFF" android:hintTextColor="#77818B" android:singleLine="true"
+android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/record" android:text="REGISTRAR EXPERIMENTO"
+android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/refresh" android:text="ATUALIZAR AGORA"
+android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
